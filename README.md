@@ -1,27 +1,39 @@
-# X-O
-"Tic Tac Toe (X-O) game implemented in C++ as a practice project for programming basics (loops, conditions, arrays
-# Tic Tac Toe Game (X-O) 🎮
+# Tic-Tac-Toe (X-O)
 
-This is a simple **Tic Tac Toe (X-O)** game built in **C++**.  
-It was created as a practice project for **programming basics**, including loops, conditions, and arrays.
+A simple two-player Tic-Tac-Toe game built with **C++** as a practice project for programming fundamentals.
 
----
+## Features
 
-## 🚀 Features
-- Two-player mode (Player 1 = X, Player 2 = O)  
-- Prevents overwriting occupied cells  
-- Detects winner (rows, columns, diagonals)  
-- Detects draw cases when the board is full  
+- Two-player gameplay (X and O).
+- Displays the game board in the console.
+- Prevents players from choosing an occupied cell.
+- Checks rows, columns, and diagonals for a winner.
+- Detects a draw when the board is full.
 
----
+## Built With
 
-## 🛠️ Technologies Used
-- **C++ (basics)**  
-- Console application  
+- C++
+- Console input and output
+- Arrays, loops, and conditional statements
 
----
+## Getting Started
 
-## ▶️ How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/youssefibrahimahmed/xo-game.git
+Clone the repository:
+
+```bash
+git clone https://github.com/youssefibrahimahmed/X-O.git
+cd X-O
+```
+
+Open the source file in a C++ IDE or compile it with a C++ compiler:
+
+```bash
+g++ main.cpp -o xo
+./xo
+```
+
+> If your source file has a different name, replace `main.cpp` with its actual filename.
+
+## About
+
+This project focuses on practicing core C++ concepts through a small interactive game.
